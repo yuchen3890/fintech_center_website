@@ -7,21 +7,21 @@ interface groupItem {
 
 const GROUP_ITEMS: Array<groupItem> = [
     {
-        route: '/FinTech',
+        route: '/finTech',
         name: '金融科技組',
         lead: '薛智文教授',
         email: 'cwhsueh@csie.ntu.edu.tw',
         intro: '金融科技組的目標為開發各種前瞻理論與方法，例如區塊鏈、人工智慧、機器學習、資訊安全、密碼學等，並將這些理論與方法實際用於金融科技，以促進經濟發展並提升生活水平。',
     },
     {
-        route: '/FinBuss',
+        route: '/finBuss',
         name: '金融業務組',
         lead: '張森林教授',
         email: 'chungsl@ntu.edu.tw',
         intro: '金融業務組的目標為詳細檢視各項金融業務的需求，並適時導入相關的資訊科技，以簡化人力並提高自動化，同時也希望踩在資訊科技的肩榜上，能夠提升並開拓更有前景的金融業務。',
     },
     {
-        route: '/FinLaw',
+        route: '/finLaw',
         name: '金融法律組',
         lead: '林仁光教授',
         email: 'andrewlin@ntu.edu.tw',

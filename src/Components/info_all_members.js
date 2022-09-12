@@ -173,7 +173,7 @@ const FINLAW_MEMBERS = [
         expertise: "保險法、保險監理、金融市場管制、強制責任保險與侵權行為",
         website: "http://www.law.ntu.edu.tw/index.php/認識本院/本院師資/item/237-汪信君",
         bio:
-            '汪信君教授於1994年自政治大學法律學系畢業後，於1996年取得政治大學商學碩士（保險研究所），1998年赴英攻讀法學博士學位，並於2002年取得倫敦大學法學博士（QMC/CCLS）。其代表著作為Reinsurance Regulation-A Contemporary and Comparative Study (Kluwer International 2002)，該著作並於2005年為美國風險與保險學會（ARIA）評選為2005年度保險專書獎(Kulp-Wright Book Award)。於2016年以E-Commerce and Distribution of Insurance Products一文，收錄由Springer出版The \"Dematerialized\" Insurance-Distance Selling and Cyber Risks from an International Perspective一書。其研究領域為保險法、保險監理、金融市場管制。目前研究方向主要在於保險業清償能力監理與系統風險、行為經濟學與保險商品管制、未成年人死亡保險等議題。',
+            '汪信君教授於1994年自政治大學法律學系畢業後，於1996年取得政治大學商學碩士（保險研究所），1998年赴英攻讀法學博士學位，並於2002年取得倫敦大學法學博士（QMC/CCLS）。其代表著作為Reinsurance Regulation-A Contemporary and Comparative Study (Kluwer International 2002)，該著作並於2005年為美國風險與保險學會（ARIA）評選為2005年度保險專書獎(Kulp-Wright Book Award)。於2016年以E-Commerce and Distribution of Insurance Products一文，收錄由Springer出版The "Dematerialized" Insurance-Distance Selling and Cyber Risks from an International Perspective一書。其研究領域為保險法、保險監理、金融市場管制。目前研究方向主要在於保險業清償能力監理與系統風險、行為經濟學與保險商品管制、未成年人死亡保險等議題。',
         avatar:
             '/hsin-chun-wang.jpg',
     },
