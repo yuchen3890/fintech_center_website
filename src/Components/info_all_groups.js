@@ -28,7 +28,7 @@ const GROUP_ITEMS: Array<groupItem> = [
         intro: '金融法律組著重在金融科技相關法律議題之研究，尤其在金融科技發展快速的情況下，現行法規如何因應產業發展，應如何調整始能兼顧金融科技發展以及產業應有之規範，都是本組的研究範疇。',
     },
     {
-        route: '/Industry',
+        route: '/industry',
         name: '產學合作組',
         lead: '陳永耀教授',
         email: 'yychen@ntu.edu.tw',

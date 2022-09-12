@@ -119,7 +119,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
     return (
         <Link
             as={ReachLink}
-            to={href}
+            to={href ?? '#'}
             role={'group'}
             display={'block'}
             p={2}
