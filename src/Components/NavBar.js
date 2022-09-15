@@ -51,9 +51,9 @@ const NavBar = () => {
                     />
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }} alignItems={'center'}>
-                    <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
+                    {/* <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
                         <Image src="/logo-c.png" alt='logo' />
-                    </Flex>
+                    </Flex> */}
                     <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
                         <DesktopNav />
                     </Flex>
@@ -229,6 +229,12 @@ const NAV_ITEMS: Array<NavItem> = [
     {
         label: '組織成員',
         href: '/organization',
+        children: [
+            {
+                label: '歷屆主任',
+                href: '/chief',
+            },
+        ]
     },
     {
         label: '各組研究方向',
