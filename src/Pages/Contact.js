@@ -21,7 +21,7 @@ const Contact = () => {
     },
     {
         name: '信箱',
-        content: 'EMAIL：yiying@ntu.edu.tw'
+        content: 'EMAIL：nicolefang@ntu.edu.tw'
     },
     {
         name: '電話',
