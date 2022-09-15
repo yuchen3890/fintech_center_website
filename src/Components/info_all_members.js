@@ -1,3 +1,30 @@
+const CHIEF_PREV = [
+    {
+        name_ch: '張智星',
+        name_en: 'Jyh-Shing Roger Jang',
+        title: '臺灣大學資訊工程學系/資訊網路與多媒體研究所 教授、台大醫院資訊室 主任',
+        email: 'jang@csie.ntu.edu.tw',
+        expertise: "精準行銷/搜尋/推薦、金融科技之AI應用、醫療大數據分析、音樂分析/檢索、語音辨識/評分、多媒體分析/檢索",
+        website: "http://mirlab.org/jang",
+        bio:
+            '張智星教授於 1992 年取得加州大學柏克萊分校的電機電腦博士，1993 年的 ANFIS 論文在 Google Scholar 被引用次數超過一萬次。張教授於 1993 年加入美國 MathWorks 公司，開發與 MATLAB 共用的模糊邏輯工具箱。1995 年回台任教後，專注於機器學習的各項應用，包含語音、音樂、文件、影像辨識等領域。他曾經擔任 2014 及 2017 年 ISMIR 的大會主席及共同主席，他的團隊也在歷年 MIREX 國際音樂檢索評比中的數個項目拿下第一名的佳績。目前張教授執行多項與金融科技相關之計畫，包含精準行銷、搜尋與推薦，並擔任台大醫院資訊室主任，以及工研院資通所的顧問。',
+        avatar:
+            '/jyh-shing-jang.jpg',
+    },
+    {
+        name_ch: '陳祝嵩',
+        name_en: 'Chu-Song Chen',
+        title: '台灣大學資訊工程學系／資訊網路與多媒體研究所 教授',
+        email: 'chusong@csie.ntu.edu.tw',
+        expertise: "人工智慧、深度學習、電腦視覺、大數據分析、機器學習、多媒體處理、醫學影像",
+        website: " https://imp.iis.sinica.edu.tw/",
+        bio:
+            '',
+        avatar:
+            '/chu-song-chen.jpg',
+    },
+]
+
 const HEAD_MEMBERS = [
     {
         name_ch: '陳祝嵩',
@@ -255,4 +282,4 @@ const ASSISTANTS = [
 
 
 
-export { HEAD_MEMBERS, FINTECH_MEMBERS, FINBUSS_MEMBERS, FINLAW_MEMBERS, INDUSTRY_MEMBERS, ASSISTANTS };
+export { CHIEF_PREV, HEAD_MEMBERS, FINTECH_MEMBERS, FINBUSS_MEMBERS, FINLAW_MEMBERS, INDUSTRY_MEMBERS, ASSISTANTS };
