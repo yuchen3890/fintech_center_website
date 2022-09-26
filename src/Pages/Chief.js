@@ -46,7 +46,7 @@ const Chief = () => {
                                     第 {index + 1} 屆
                                 </Text>}
                         </Box>
-                        <MemberCard {...cardInfo} index={index} group={'Head'} />
+                        <MemberCard {...cardInfo} index={index} group={'Chief'} />
                     </>
                 )
             })}

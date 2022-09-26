@@ -20,7 +20,7 @@ const Footer = () => {
             align={{ base: 'center', md: 'center' }}>
 
             <Flex>
-                {/* <Image src="/logo-w.png" alt='logo' mr={5} /> */}
+                <Image maxW='30%' src="/logo-new.png" alt='logo' mr={5} />
                 <Text textAlign={'left'}>National Taiwan University <br />
                     國立臺灣大學金融科技研究中心</Text>
             </Flex>

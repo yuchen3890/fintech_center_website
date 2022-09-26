@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import { 
+    CHIEF_PREV,
     HEAD_MEMBERS, 
     FINTECH_MEMBERS, 
     FINBUSS_MEMBERS, 
@@ -24,7 +25,10 @@ const PersonalPage = () => {
     const { index, group } = location.state;
 
     let person;
-    if (group === 'Head') {
+    if(group === 'Chief') {
+        person = CHIEF_PREV[index];
+    }
+    else if (group === 'Head') {
         person = HEAD_MEMBERS[index];
     }
     else if (group === 'FinTech') {

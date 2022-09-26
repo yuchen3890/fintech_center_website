@@ -51,9 +51,9 @@ const NavBar = () => {
                     />
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }} alignItems={'center'}>
-                    {/* <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
-                        <Image src="/logo-c.png" alt='logo' />
-                    </Flex> */}
+                    <Flex maxW={'30%'} display={{ base: 'none', md: 'flex' }} ml={10}>
+                        <Image src="/logo-new.png" alt='logo' />
+                    </Flex>
                     <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
                         <DesktopNav />
                     </Flex>
