@@ -2,7 +2,7 @@ const CHIEF_PREV = [
     {
         name_ch: '張智星',
         name_en: 'Jyh-Shing Roger Jang',
-        title: '臺灣大學資訊工程學系/資訊網路與多媒體研究所 教授、玉山金控科技長',
+        title: '臺灣大學資訊工程學系/資訊網路與多媒體研究所 教授、玉山金控 科技長',
         email: 'jang@csie.ntu.edu.tw',
         expertise: "精準行銷/搜尋/推薦、金融科技之AI應用、醫療大數據分析、音樂分析/檢索、語音辨識/評分、多媒體分析/檢索",
         website: "http://mirlab.org/jang",
@@ -41,7 +41,7 @@ const HEAD_MEMBERS = [
     {
         name_ch: '陳業寧',
         name_en: 'Yehning Chen',
-        title: '臺灣大學財務金融學系暨研究所 教授 / 臺灣大學管理學院 副院長',
+        title: '臺灣大學財務金融學系暨研究所 教授',
         email: 'ynchen@ntu.edu.tw',
         expertise: "金融機構、財務賽局、公司理財",
         website: "http://www.management.ntu.edu.tw/Fin/faculty/teacher/sn/36",
@@ -53,12 +53,12 @@ const HEAD_MEMBERS = [
     {
         name_ch: '邵慶平',
         name_en: 'Ching-Ping Shao',
-        title: '臺灣大學法律學院 教授 / 臺灣大學法律學院 副院長',
+        title: '臺灣大學法律學院 教授',
         email: 'cpshao@ntu.edu.tw',
         expertise: "金融法、商法",
         website: "http://www.law.ntu.edu.tw/index.php/認識本院/本院師資/item/228-邵慶平",
         bio:
-            "邵慶平教授是臺灣大學法學士、法學碩士，美國柏克萊加州大學法學碩士（LLM）、法學博士（SJD），曾任國際通商法律事務所律師、中正大學法律學系教授。自2011年起任教於臺灣大學法律學院，曾兼任企業暨金融法制研究中心主任、NTU Law Review主編，目前兼任副院長一職。<p style='text-align: justify;'>邵教授曾獲得中正大學青年學者獎、科技部優秀年輕學者研究計畫、臺灣大學教學傑出獎。主要研究領域包括公司法、證券交易法、金融法。我國公司法「閉鎖性股份有限公司專節」的立法，邵教授是主要的倡議者與專節條文的起草者。",
+            "邵慶平教授是臺灣大學法學士、法學碩士，美國柏克萊加州大學法學碩士（LLM）、法學博士（SJD），曾任國際通商法律事務所律師、中正大學法律學系教授。自2011年起任教於臺灣大學法律學院，曾兼任企業暨金融法制研究中心主任、NTU Law Review主編及兼任副院長一職。邵教授曾獲得中正大學青年學者獎、科技部優秀年輕學者研究計畫、臺灣大學教學傑出獎。主要研究領域包括公司法、證券交易法、金融法。我國公司法「閉鎖性股份有限公司專節」的立法，邵教授是主要的倡議者與專節條文的起草者。",
         avatar:
             '/ching-ping-shao.jpg',
     },
@@ -80,7 +80,7 @@ const FINTECH_MEMBERS = [
     {
         name_ch: '張智星',
         name_en: 'Jyh-Shing Roger Jang',
-        title: '臺灣大學資訊工程學系/資訊網路與多媒體研究所 教授、玉山金控科技長',
+        title: '臺灣大學資訊工程學系/資訊網路與多媒體研究所 教授、玉山金控 科技長',
         email: 'jang@csie.ntu.edu.tw',
         expertise: "精準行銷/搜尋/推薦、金融科技之AI應用、醫療大數據分析、音樂分析/檢索、語音辨識/評分、多媒體分析/檢索",
         website: "http://mirlab.org/jang",
@@ -128,12 +128,12 @@ const FINTECH_MEMBERS = [
     {
         name_ch: '陳縕儂',
         name_en: 'Yun-Nung Chen',
-        title: '國立臺灣大學資訊工程學系 助理教授',
+        title: '國立臺灣大學資訊工程學系 副教授',
         email: 'yvchen@csie.ntu.edu.tw',
         expertise: "語言理解、對話系統、機器智慧、自然語言處理",
         website: "https://www.csie.ntu.edu.tw/~yvchen",
         bio:
-            "陳縕儂 (Yun-Nung Vivian Chen) 現為國立台灣大學資訊工程學系助理教授，2015 年於美國卡內基美隆大學之電腦科學院獲頒博士學位，而後加入美國微軟研究院之深度學習科技中心任研究職務。研究專長包含對話系統、語言理解、以及深度學習，曾獲 Google Faculty Award、傑出人才年輕學者創新獎、科技部年輕學者獎及多次最佳論文獎。欲瞭解陳博士的研究及經歷，請至她的個人網頁 http://vivianchen.idv.tw。",
+            "陳縕儂 (Yun-Nung Vivian Chen) 現為國立台灣大學資訊工程學系副教授，2015 年於美國卡內基美隆大學之電腦科學院獲頒博士學位，而後加入美國微軟研究院之深度學習科技中心任研究職務。研究專長包含對話系統、語言理解、以及深度學習，曾獲 Google Faculty Award、傑出人才年輕學者創新獎、科技部年輕學者獎及多次最佳論文獎。欲瞭解陳博士的研究及經歷，請至她的個人網頁 http://vivianchen.idv.tw。",
         avatar:
             '/yun-nung-chen.png',
     },
@@ -207,19 +207,19 @@ const FINLAW_MEMBERS = [
     {
         name_ch: '蔡英欣',
         name_en: 'Ying-Hsin Tsai',
-        title: '國立臺灣大學法律學院 副教授',
+        title: '國立臺灣大學法律學院 教授',
         email: 'ytsai@ntu.edu.tw',
         expertise: "公司法、海商法、電子支付法、國際商事法、金融法",
         website: "http://www.law.ntu.edu.tw/index.php/認識本院/本院師資/item/208-蔡英欣",
         bio:
-            '蔡英欣副教授為國立臺灣大學法學士、法學碩士，日本東京大學法學碩士、法學博士。曾任執業律師。研究領域為商事法，其中尤以公司法、海商法、電子支付法、國際商事法以及金融法等為主要研究對象。教授科目有公司法、海商法、企業法制專題研究、電子支付法專題研究、比較海商法專題研究、日文法學名著、商事法等課程。',
+            '蔡英欣教授為國立臺灣大學法學士、法學碩士，日本東京大學法學碩士、法學博士。曾任執業律師。研究領域為商事法，其中尤以公司法、海商法、電子支付法、國際商事法以及金融法等為主要研究對象。教授科目有公司法、海商法、企業法制專題研究、電子支付法專題研究、比較海商法專題研究、日文法學名著、商事法等課程。',
         avatar:
             '/ying-hsin-tsai.jpg',
     },
     {
         name_ch: '楊岳平',
         name_en: 'Yueh-Ping (Alex) Yang',
-        title: '國立臺灣大學法律學院 助理教授',
+        title: '國立臺灣大學法律學院 副教授',
         email: 'alexypyang@ntu.edu.tw',
         expertise: "比較公司治理、金融監理、資本市場法制、國際經貿法、法律經濟分析",
         website: "http://www.law.ntu.edu.tw/index.php/認識本院/本院師資/item/1502-楊岳平",
@@ -246,7 +246,7 @@ const INDUSTRY_MEMBERS = [
     {
         name_ch: '張智星',
         name_en: 'Jyh-Shing Roger Jang',
-        title: '臺灣大學資訊工程學系/資訊網路與多媒體研究所 教授、玉山金控科技長',
+        title: '臺灣大學資訊工程學系/資訊網路與多媒體研究所 教授、玉山金控 科技長',
         email: 'jang@csie.ntu.edu.tw',
         expertise: "精準行銷/搜尋/推薦、金融科技之AI應用、醫療大數據分析、音樂分析/檢索、語音辨識/評分、多媒體分析/檢索",
         website: "http://mirlab.org/jang",
@@ -258,12 +258,12 @@ const INDUSTRY_MEMBERS = [
     {
         name_ch: '王鈺強',
         name_en: 'Yu-Chiang Frank Wang',
-        title: '國立臺灣大學電機工程學系 副教授',
+        title: '國立臺灣大學電機工程學系 教授',
         email: 'ycwang@ntu.edu.tw',
         expertise: "電腦視覺、機器學習、人工智慧",
         website: "http://cvlab.ee.ntu.edu.tw",
         bio:
-            "Yu-Chiang Frank Wang received his B.S. degree in Electrical Engineering from National Taiwan University in 2001. He received his M.S. and Ph.D. degrees in Electrical and Computer Engineering from Carnegie Mellon University in 2004 and 2009, respectively. In 2009, Dr. Wang joined the Research Center for Information Technology Innovation (CITI), Academia Sinica as an Assistant Research Fellow, and later he was promoted as the Associate Research Fellow in 2013, and also served as the Deputy Director of CITI from 2015 to 2017.<p style='text-align: justify;'>In 2017, Dr. Wang joins the Graduate Institute of Communication Engineering and Department of Electrical Engineering at National Taiwan Univeristy as an Associate Professor. With continuing research focuses on computer vision and machine learning, Dr. Wang's recent research topics include deep learning for transfer learning, domain adaptation, face recognition, semantic segmentation, and multi-label classification. Dr. Wang serves as organizing committee members and area chairs of multiple international conferences such as CVPR, ICCV, ECCV, and ACCV. Several of his papers are nominated for the best paper awards, including IEEE ICIP, ICME, AVSS and MVA. Dr. Wang is twice selected as the Outstanding Young Researcher by the Ministry of Science and Technology of Taiwan (2013-2015 and 2017-2019).",
+            "Yu-Chiang Frank Wang received his B.S. degree in Electrical Engineering from National Taiwan University in 2001. He received his M.S. and Ph.D. degrees in Electrical and Computer Engineering from Carnegie Mellon University in 2004 and 2009, respectively. In 2009, Dr. Wang joined the Research Center for Information Technology Innovation (CITI), Academia Sinica as an Assistant Research Fellow, and later he was promoted as the Associate Research Fellow in 2013, and also served as the Deputy Director of CITI from 2015 to 2017. In 2017, Dr. Wang joins the Graduate Institute of Communication Engineering and Department of Electrical Engineering at National Taiwan Univeristy as an Associate Professor. With continuing research focuses on computer vision and machine learning, Dr. Wang's recent research topics include deep learning for transfer learning, domain adaptation, face recognition, semantic segmentation, and multi-label classification. Dr. Wang serves as organizing committee members and area chairs of multiple international conferences such as CVPR, ICCV, ECCV, and ACCV. Several of his papers are nominated for the best paper awards, including IEEE ICIP, ICME, AVSS and MVA. Dr. Wang is twice selected as the Outstanding Young Researcher by the Ministry of Science and Technology of Taiwan (2013-2015 and 2017-2019).",
         avatar:
             '/yu-chiang-wang.jpg',
     },
