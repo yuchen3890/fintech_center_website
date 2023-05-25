@@ -9,9 +9,10 @@ import {
     TableContainer,
 } from '@chakra-ui/react';
 
-import { GROUP_ITEMS } from '../Components/info_all_groups';
 
-const research = () => {
+import { ACTIVITIES } from '../Components/info_all_activities';
+
+const activity = () => {
 
     const Routing = (route) =>{
         window.location.href = route;
@@ -33,23 +34,21 @@ const research = () => {
                     <Thead>
                         <Tr
                             bgColor={'#4d8080'}>
-                            <Th color={'#eff5f5'} fontSize={20} fontWeight={'bold'}>單位</Th>
-                            <Th color={'#eff5f5'} fontSize={20} fontWeight={'bold'}>組長</Th>
-                            <Th color={'#eff5f5'} fontSize={20} fontWeight={'bold'}>聯絡信箱</Th>
+                            <Th color={'#eff5f5'} fontSize={20} fontWeight={'bold'}>活動日期</Th>
+                            <Th color={'#eff5f5'} fontSize={20} fontWeight={'bold'}>活動主題</Th>
                             <Th color={'#eff5f5'} fontSize={20} fontWeight={'bold'}>簡介</Th>
                         </Tr>
                     </Thead>
-                    {GROUP_ITEMS.map((groupItem) => (
+                    {ACTIVITIES.map((activity, i) => (
                         <Tbody>
                             <Tr 
-                            cursor={'pointer'}
-                            onClick = {() => Routing(groupItem.route)}
+                            cursor={"pointer"}
+                            onClick = {() => Routing(`/activity/${i}`)}
                             _hover= {{bgColor: '#eff5f5', color: '#70a9a9'}}
                             >
-                                <Td>{groupItem.name}</Td>
-                                <Td>{groupItem.lead}</Td>
-                                <Td>{groupItem.email}</Td>
-                                <Td>{groupItem.intro}</Td>
+                                <Td>{activity.date}</Td>
+                                <Td>{activity.title}</Td>
+                                <Td>{activity.intro}</Td>
                             </Tr>
                         </Tbody>
                     ))}
@@ -58,5 +57,5 @@ const research = () => {
         </Box>
     )
 }
-export default research;
+export default activity;
 

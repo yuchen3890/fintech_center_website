@@ -20,6 +20,8 @@ import {
     ChevronRightIcon,
 } from '@chakra-ui/icons';
 
+import { ACTIVITIES } from './info_all_activities';
+
 import { Link as ReachLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -69,7 +71,7 @@ const NavBar = () => {
 
 const DesktopNav = () => {
     const linkColor = '#eff5f5';
-    const linkHoverColor =  '#70a9a9';
+    const linkHoverColor = '#70a9a9';
     const popoverContentBgColor = '#2f4f4f';
 
     return (
@@ -78,8 +80,8 @@ const DesktopNav = () => {
                 <Box key={navItem.label}>
                     <Popover trigger={'hover'} placement={'bottom-start'}>
                         <PopoverTrigger>
-                            <Link 
-                                as={ReachLink} 
+                            <Link
+                                as={ReachLink}
                                 p={2}
                                 to={navItem.href ?? '#'}
                                 fontSize={'lg'}
@@ -257,6 +259,18 @@ const NAV_ITEMS: Array<NavItem> = [
                 href: '/Industry',
             },
         ],
+    },
+    {
+        label: '活動集錦',
+        href: '/activity',
+        children:
+            ACTIVITIES.map((v, i,) => {
+                return {
+                    label: v.title,
+                    href: `/activity/${i}`,
+                }
+            })
+
     },
     {
         label: '聯絡我們',

@@ -1,6 +1,8 @@
 import './App.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Route, Routes } from "react-router-dom"
+import { ACTIVITIES } from './Components/info_all_activities';
+
 import Footer from './Components/Footer';
 import NavBar from './Components/NavBar';
 
@@ -13,6 +15,9 @@ import FinTech from './Fintech/finTech';
 import FinBuss from './FinBuss/finBuss';
 import FinLaw from './FinLaw/finLaw';
 import Industry from './Industry/industry';
+
+import Activity from './Pages/Activity';
+import Event from './Activities/event';
 
 import PersonalPage from './Pages/PersonalPage';
 import Contact from './Pages/Contact';
@@ -32,6 +37,11 @@ function App() {
             <Route path="/finBuss" element={<FinBuss />} />
             <Route path="/finLaw" element={<FinLaw />} />
             <Route path="/industry" element={<Industry />} />
+
+            <Route path="/activity" element={<Activity />} />
+            {ACTIVITIES.map((v, i)=>{
+              return <Route path={`/activity/${i}`} element={<Event id={i} />} />
+            })}
 
             <Route path="/personalPage" element={<PersonalPage />} />
             <Route path="/contact" element={<Contact />} />
