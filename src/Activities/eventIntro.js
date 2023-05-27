@@ -2,9 +2,10 @@ import {
     Box,
     chakra,
     Flex,
-    UnorderedList,
-    ListItem,
+    Link,
+    Image
 } from '@chakra-ui/react';
+
 
 const EventIntro = ({ activity }) => {
     return (
@@ -24,7 +25,7 @@ const EventIntro = ({ activity }) => {
                     {activity.title}
                 </chakra.h1>
             </Box>
-            <Flex
+            <Box
                 boxShadow={'lg'}
                 alignItem={'center'}
                 width={'100%'}
@@ -50,10 +51,14 @@ const EventIntro = ({ activity }) => {
                         fontSize={'20px'}
                         pb={4}
                     >
-                        金融科技論壇將於{activity.place}舉行。
+                        本論壇將於 {activity.date} 在{activity.place}舉行，歡迎大家踴躍報名參加。<br/>
+                        報名連結：<Link href='https://forms.gle/wwLXyVK1pWLYCgtUA' isExternal>
+                        https://forms.gle/wwLXyVK1pWLYCgtUA </Link>
                     </chakra.p>
                 </Box>
-            </Flex>
+                <Image src={`../activity/${activity.fileName}`} alt='NONE'></Image>
+            </Box>
+            
         </Flex>
     )
 }
