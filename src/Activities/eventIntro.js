@@ -2,7 +2,9 @@ import {
     Box,
     chakra,
     Flex,
-    Image
+    Image,
+    Divider,
+    AbsoluteCenter
 } from '@chakra-ui/react';
 
 
@@ -42,6 +44,57 @@ const EventIntro = ({ activity }) => {
                     backgroundSize: 'cover',
                     backgroundImage: "url('/quotation_marks.png')",
                 }}>
+                <Box position='relative' padding='10'>
+                    <Divider  borderColor={'gray.400'}/>
+                    <AbsoluteCenter bg='white' px='4'>
+                        <chakra.h2
+                            py={5}
+                            fontSize={35}
+                            fontWeight={'bold'}
+                            color={'gray.700'}
+                            >
+                            活動簡介
+                        </chakra.h2>
+                    </AbsoluteCenter>
+                </Box>
+                <Box
+                    textAlign={'left'}>
+                    <chakra.p
+                        fontFamily={'Inter'}
+                        fontWeight={'medium'}
+                        fontSize={'20px'}
+                        pb={4}
+                    >
+                        {activity.intro}
+                    </chakra.p>
+                </Box>
+                <Box position='relative' padding='10' mb='2'>
+                    <Divider  borderColor={'gray.400'}/>
+                    <AbsoluteCenter bg='white' px='4'>
+                        <chakra.h2
+                            py={5}
+                            fontSize={35}
+                            fontWeight={'bold'}
+                            color={'gray.700'}
+                            >
+                            活動議程
+                        </chakra.h2>
+                    </AbsoluteCenter>
+                </Box>
+                <Image src={`../activity/${activity.fileName}`} alt='NONE'></Image>
+                <Box position='relative' padding='10' mt='8'>
+                    <Divider  borderColor={'gray.400'}/>
+                    <AbsoluteCenter bg='white' px='4'>
+                        <chakra.h2
+                            py={5}
+                            fontSize={35}
+                            fontWeight={'bold'}
+                            color={'gray.700'}
+                            >
+                            活動亮點總覽
+                        </chakra.h2>
+                    </AbsoluteCenter>
+                </Box>
                 <Box textAlign={'left'}>
                     <chakra.p
                         fontFamily={'Inter'}
