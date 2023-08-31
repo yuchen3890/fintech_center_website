@@ -264,10 +264,12 @@ const NAV_ITEMS: Array<NavItem> = [
         label: '活動集錦',
         href: '/activity',
         children:
-            ACTIVITIES.map((v, i,) => {
+            ACTIVITIES.map((_, i,) => {
+                const reversedIndex = ACTIVITIES.length - 1 - i;
+                const v = ACTIVITIES[reversedIndex];
                 return {
                     label: v.title,
-                    href: `/activity/${i}`,
+                    href: `/activity/${reversedIndex}`,
                 }
             })
 

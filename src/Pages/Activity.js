@@ -39,19 +39,23 @@ const activity = () => {
                             <Th color={'#eff5f5'} fontSize={20} fontWeight={'bold'}>簡介</Th>
                         </Tr>
                     </Thead>
-                    {ACTIVITIES.map((activity, i) => (
-                        <Tbody>
-                            <Tr 
-                            cursor={"pointer"}
-                            onClick = {() => Routing(`/activity/${i}`)}
-                            _hover= {{bgColor: '#eff5f5', color: '#70a9a9'}}
-                            >
-                                <Td>{activity.date}</Td>
-                                <Td>{activity.title}</Td>
-                                <Td>{activity.intro}</Td>
-                            </Tr>
-                        </Tbody>
-                    ))}
+                    {ACTIVITIES.map((_, i) => {
+                        const reversedIndex = ACTIVITIES.length - 1 - i;
+                        const activity = ACTIVITIES[reversedIndex];
+                        return(
+                            <Tbody>
+                                <Tr 
+                                cursor={"pointer"}
+                                onClick = {() => Routing(`/activity/${reversedIndex}`)}
+                                _hover= {{bgColor: '#eff5f5', color: '#70a9a9'}}
+                                >
+                                    <Td>{activity.date}</Td>
+                                    <Td>{activity.title}</Td>
+                                    <Td>{activity.intro}</Td>
+                                </Tr>
+                            </Tbody>
+                        )
+                    })}
                 </Table>
             </TableContainer>
         </Box>
