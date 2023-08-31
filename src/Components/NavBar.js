@@ -261,7 +261,7 @@ const NAV_ITEMS: Array<NavItem> = [
         ],
     },
     {
-        label: '活動集錦',
+        label: '活動快訊',
         href: '/activity',
         children:
             ACTIVITIES.map((_, i,) => {
