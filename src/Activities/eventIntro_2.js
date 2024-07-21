@@ -186,7 +186,7 @@ const EventIntro_2 = ({ activity }) => {
                         fontSize={'15px'}
                         pb={2}
                         pt={2}
-                    >本活動可至獎項官網（<Link color="#437070">www.niia.tw</Link>）、或掃QR code線上報名，或將下方報名表填妥後傳真至（02-2325-6816）。
+                    >本活動可至獎項官網（<Link color="#437070" href="https://www.niia.tw/" isExternal>www.niia.tw</Link>）、或掃QR code線上報名，或將下方報名表填妥後傳真至（02-2325-6816）。
                     </chakra.p>
                     <Image src={`../activity/${activity.QRcode}`} alt='NONE'></Image>
                     {activity.fileName.map((fn) => {
