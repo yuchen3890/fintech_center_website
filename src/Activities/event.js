@@ -5,10 +5,12 @@ import {
 import { ACTIVITIES } from '../Components/info_all_activities';
 import EventIntro_0 from './eventIntro_0'; 
 import EventIntro_1 from './eventIntro_1';
+import EventIntro_2 from './eventIntro_2';
 
 const eventIntroComponents = {
     '0': EventIntro_0,
     '1': EventIntro_1,
+    '2': EventIntro_2,
   };
 
 const Event = ({id}) => {
