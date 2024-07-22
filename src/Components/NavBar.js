@@ -275,6 +275,10 @@ const NAV_ITEMS: Array<NavItem> = [
 
     },
     {
+        label: '相關研究',
+        href: '/report',
+    },
+    {
         label: '聯絡我們',
         href: '/contact',
     },

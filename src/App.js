@@ -10,6 +10,7 @@ import HomePage from './Pages/HomePage';
 import Organization from './Pages/Organization';
 import Chief from './Pages/Chief';
 import Research from './Pages/Research';
+import Report from './Pages/Report';
 
 import FinTech from './Fintech/finTech';
 import FinBuss from './FinBuss/finBuss';
@@ -32,6 +33,7 @@ function App() {
             <Route path="/organization" element={<Organization />} />
             <Route path="/chief" element={<Chief />} />
             <Route path="/research" element={<Research />} />
+            <Route path="/report" element={<Report />} />
 
             <Route path="/finTech" element={<FinTech />} />
             <Route path="/finBuss" element={<FinBuss />} />
