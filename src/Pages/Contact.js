@@ -17,7 +17,7 @@ const Contact = () => {
 
     const contact_info = [{
         name: '地址',
-        content: `台北市羅斯福路四段一號 國立台灣大學 資訊工程系 542室`
+        content: `台北市羅斯福路四段一號 國立台灣大學 資訊工程系 542 室`
     },
     {
         name: '信箱',
