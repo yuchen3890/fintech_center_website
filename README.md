@@ -29,7 +29,7 @@ It correctly bundles React in production mode and optimizes the build for the be
   /report
   (other data...)
 ```
-- `Public` can be viewed as a static database storing files (.jpg, .png, .pdf, etc).\
+- `Public` can be viewed as a static database storing files (.jpg, .png, .pdf, etc).
 - `activity` and `report` folders store files especially for the activity and report pages, respectively.
 
 ```
@@ -48,8 +48,8 @@ It correctly bundles React in production mode and optimizes the build for the be
   /index.js
   (other data...)
 ```
-- `index.js`: the root file that the browser renders, <App> refers to `App.js`.
-- `App.js: the routing path and the corresponding element to render is defined in this file.
+- `index.js`: the root file that the browser renders.
+- `App.js`: the routing path and the corresponding element to render is defined in this file.
 
 | Folder | 頁面 |
 | --- | --- |
