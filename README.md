@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with fintech_center_website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The visual layout was created with Chakra UI component library (https://v2.chakra-ui.com/).  
 
-## Available Scripts
-
+## Commands
+Before running scripts below, please install npm and node on your computer, and make sure the versions are the same as those written in `package.json`. 
 In the project directory, you can run:
+### `npm install`
+Packages (with the predefined version) written in package.json will be installed, which is stored in a directory named `node_modules`.
 
 ### `npm start`
 
@@ -14,57 +17,91 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Structures
+```
+/Public
+  /activity
+  /report
+  (other data...)
+```
+- `Public` can be viewed as a static database storing files (.jpg, .png, .pdf, etc).\
+- `activity` and `report` folders store files especially for the activity and report pages, respectively.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+/src
+  /Activities
+  /Components
+  /FinBuss
+  /FinLaw
+  /Fintech
+  /Industry
+  /Pages
+  /App.css
+  /App.js
+  /App.test.js
+  /index.css
+  /index.js
+  (other data...)
+```
+- `index.js`: the root file that the browser renders, <App> refers to `App.js`.
+- `App.js: the routing path and the corresponding element to render is defined in this file.
 
-### `npm run eject`
+| Folder | 頁面 |
+| --- | --- |
+| `Fintech` | 金融科技組 |
+| `FinBuss` | 金融業務組 |
+| `FinLaw` | 金融法律組 |
+| `Industry` | 產學合作組 |
+- Each folder contains introduction and members info.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+/Pages
+  /Activity.js
+  /Chief.js
+  /Contact.js
+  /HomePage.js
+  /Organization.js
+  /PersonalPage.js
+  /Report.js
+  /Research.js
+```
+| File | 頁面 |
+| --- | --- |
+| `HomePage.js` | 中心簡介 |
+| `Organization.js` | 組織成員 |
+| `Report.js` | 各組研究方向 |
+| `Activity.js` | 活動快訊 |
+| `Research.js` | 相關研究 |
+| `Contact.js` | 聯絡我們 |
+| `Chief.js` | 歷屆主任 |
+- `PersonalPage.js`: pages for each organization member.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+/Acitivies
+  /event.js
+  /eventIntro_XX.js
+  ...
+```
+- event.js: render all events
+- eventIntro_XX.js: detailed information (page) of each event
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+/Components
+  /NavBar.js
+  /Footer.js
+  /xxxCard.js
+  /info_all_xxx.js
+```
+- NavBar.js: Define url of each NavBar component.
+- Footer.js: Including lab info and logo.
+- xxxCard.js: template of listing info of xxx (member, assistant and report).
+- info_all_xxx.js: information of xxx (activies, groups, members and reports). Add new information here and render them in the coresponding pages using variables.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deploy to server
+Please refer to document "軟體架構/金融科技中心網站".
