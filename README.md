@@ -46,7 +46,7 @@ It correctly bundles React in production mode and optimizes the build for the be
   /App.test.js
   /index.css
   /index.js
-  (other data...)
+  (other files...)
 ```
 - `index.js`: the root file that the browser renders.
 - `App.js`: the routing path and the corresponding element to render is defined in this file.
@@ -87,8 +87,8 @@ It correctly bundles React in production mode and optimizes the build for the be
   /eventIntro_XX.js
   ...
 ```
-- event.js: render all events
-- eventIntro_XX.js: detailed information (page) of each event
+- event.js: render all events.
+- eventIntro_XX.js: detailed information (page) of each event.
 
 ```
 /Components
