@@ -7,7 +7,7 @@ The visual layout was created with Chakra UI component library (https://v2.chakr
 Before running scripts below, please install npm and node on your computer, and make sure the versions are the same as those written in `package.json`. 
 In the project directory, you can run:
 ### `npm install`
-Packages (with the predefined version) written in package.json will be installed, which is stored in a directory named `node_modules`.
+Packages (with the predefined version) written in package.json will be installed, which will be stored in a directory named `node_modules`.
 
 ### `npm start`
 
