@@ -86,9 +86,9 @@ const Organization = () => {
                                     bgColor={'white'}
                                     size={'xl'}
                                     src={
-                                        `${groupItem.route}-logo.svg`
+                                        `${groupItem.route}_logo.svg`
                                     }
-                                    alt={`${groupItem.route}-logo`}
+                                    alt={`${groupItem.route}_logo`}
                                 />
                             </Flex>
                             <Box p={6}>
@@ -137,9 +137,9 @@ const Organization = () => {
                                     bgColor={'white'}
                                     size={'xl'}
                                     src={
-                                        `${groupItem.route}-logo.svg`
+                                        `${groupItem.route}_logo.svg`
                                     }
-                                    alt={`${groupItem.route}-logo`}
+                                    alt={`${groupItem.route}_logo`}
                                 />
                             </Flex>
                             <Box p={6}>
