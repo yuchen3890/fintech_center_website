@@ -7,7 +7,7 @@ The visual layout was created with Chakra UI component library (https://v2.chakr
 Before running scripts below, please install npm and node on your computer, and make sure the versions are the same as those written in `package.json`. 
 In the project directory, you can run:
 ### `npm install`
-Packages (with the predefined version) written in package.json will be installed, which is stored in a directory named `node_modules`.
+Packages (with the predefined version) written in package.json will be installed, which will be stored in a directory named `node_modules`.
 
 ### `npm start`
 
@@ -29,7 +29,7 @@ It correctly bundles React in production mode and optimizes the build for the be
   /report
   (other data...)
 ```
-- `Public` can be viewed as a static database storing files (.jpg, .png, .pdf, etc).\
+- `Public` can be viewed as a static database storing files (.jpg, .png, .pdf, etc).
 - `activity` and `report` folders store files especially for the activity and report pages, respectively.
 
 ```
@@ -46,10 +46,10 @@ It correctly bundles React in production mode and optimizes the build for the be
   /App.test.js
   /index.css
   /index.js
-  (other data...)
+  (other files...)
 ```
-- `index.js`: the root file that the browser renders, <App> refers to `App.js`.
-- `App.js: the routing path and the corresponding element to render is defined in this file.
+- `index.js`: the root file that the browser renders.
+- `App.js`: the routing path and the corresponding element to render is defined in this file.
 
 | Folder | 頁面 |
 | --- | --- |
@@ -87,8 +87,8 @@ It correctly bundles React in production mode and optimizes the build for the be
   /eventIntro_XX.js
   ...
 ```
-- event.js: render all events
-- eventIntro_XX.js: detailed information (page) of each event
+- event.js: render all events.
+- eventIntro_XX.js: detailed information (page) of each event.
 
 ```
 /Components
