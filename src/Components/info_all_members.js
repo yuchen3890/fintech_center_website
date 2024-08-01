@@ -152,18 +152,18 @@ const FINBUSS_MEMBERS = [
         avatar:
             '/san-lin-chung.jpg',
     },
-    {
-        name_ch: '王之彥',
-        name_en: 'Jr-Yan Wang',
-        title: '國立台灣大學 國際企業學系暨研究所  教授',
-        email: 'jryanwang@ntu.edu.tw',
-        expertise: "財務工程、隨機利率模型、信用風險、行為財務學",
-        website: "http://homepage.ntu.edu.tw/~jryanwang",
-        bio:
-            '王之彥為國立臺灣大學資訊工程學士、碩士及國立臺灣大學國際企業學系財務博士，現任職國立臺灣大學國際企業學系教授，曾任國立臺灣大學國際企業學系副教授、助理教授、國立臺灣科技大學財務金融研究所助理教授、國立中興大學財務金融學系助理教授。曾獲臺灣大學管理學院玉山學術獎。研究專長為財務工程、信用風險模型、隨機利率模型、資產定價、行為財務學；研究成果發表於Management Science、 Journal of Banking and Finance、Journal of Futures Markets、 Journal of Derivatives、Review of Derivatives Research、Annals of Operations Research等學術期刊。近年研究興趣為: 風險態度與選擇權合理價格、選擇權隱含資訊、價量資訊的運用分析、高頻交易等。',
-        avatar:
-            '/jr-yan-wang.png',
-    },
+    // {
+    //     name_ch: '王之彥',
+    //     name_en: 'Jr-Yan Wang',
+    //     title: '國立台灣大學 國際企業學系暨研究所  教授',
+    //     email: 'jryanwang@ntu.edu.tw',
+    //     expertise: "財務工程、隨機利率模型、信用風險、行為財務學",
+    //     website: "http://homepage.ntu.edu.tw/~jryanwang",
+    //     bio:
+    //         '王之彥為國立臺灣大學資訊工程學士、碩士及國立臺灣大學國際企業學系財務博士，現任職國立臺灣大學國際企業學系教授，曾任國立臺灣大學國際企業學系副教授、助理教授、國立臺灣科技大學財務金融研究所助理教授、國立中興大學財務金融學系助理教授。曾獲臺灣大學管理學院玉山學術獎。研究專長為財務工程、信用風險模型、隨機利率模型、資產定價、行為財務學；研究成果發表於Management Science、 Journal of Banking and Finance、Journal of Futures Markets、 Journal of Derivatives、Review of Derivatives Research、Annals of Operations Research等學術期刊。近年研究興趣為: 風險態度與選擇權合理價格、選擇權隱含資訊、價量資訊的運用分析、高頻交易等。',
+    //     avatar:
+    //         '/jr-yan-wang.png',
+    // },
     {
         name_ch: '莊文議',
         name_en: 'Wen-I Chuang',
